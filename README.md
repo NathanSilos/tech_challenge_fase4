@@ -71,3 +71,5 @@ Sobre o treinamento dos modelos, não inclui as outras variaveis que usei para c
         MSE: 24.61
         MAE: 3.85
 ![alt text](image-2.png)
+
+    Conclusão: Utilizarei o ARIMA, por ter sido melhor avaliado.
