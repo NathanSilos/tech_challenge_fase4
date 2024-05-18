@@ -47,3 +47,26 @@ Abaixo segue quatro insights com as visões:
 
     - Enquanto observamos uma tendência de mudança no cenário brasileiro a partir de fevereiro de 2021 (com a subida da selic), vemos que o petróleo, dólar e inflação americana não sofreram com grandes mudanças. 
 
+## Terceira Etapa
+
+Para esta fase, procurei utilizar time series conforme foi indicado na sugestão do trabalho. Para isso, eu criei o seguinte código <b>"modelo/treinamento_modelo.ipynb"</b>.
+
+Neste código, preferi deixar desde a extração dos dados ao treinamento e avaliação dos modelos (por ser mais fácil voltar depois e reprocessar, caso haja necessidade).
+
+Sendo assim, extrai os dados e utilizei apenas os 5 últimos anos para treinar o modelo (incluindo um periodo bem conturbado como a pandemia em 2020).
+
+Gerei esta visão para avaliar o período: 
+![alt text](image.png)
+
+Sobre o treinamento dos modelos, não inclui as outras variaveis que usei para criar as visões por sentir que não há uma correlação forte o suficiente entre elas a ponto de usar no modelo. Sendo assim, treinei dois modelos. Abaixo coloquei as avaliações de cada um, com uma imagem com sua previsão:
+    
+    - ARIMA
+        MSE: 18.91
+        MAE: 3.50
+
+![alt text](image-1.png)
+
+    - SARIMA
+        MSE: 24.61
+        MAE: 3.85
+![alt text](image-2.png)
