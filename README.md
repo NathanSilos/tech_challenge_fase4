@@ -2,15 +2,15 @@
 
 O objetivo do trabalho é: <b>
 
-    1 - Criar um dashboard interativo com ferramentas a sua escolha.
+    1 Criar um dashboard interativo com ferramentas a sua escolha.
 
-    2 - Obrigatório trazer pelo menos 4 insights com o Dash.
+    2 Obrigatório trazer pelo menos 4 insights com o Dash.
 
-    3 - Criar um modelo de Machine Learning para a previsão do preço do petróleo diariamente.
+    3 Criar um modelo de Machine Learning para a previsão do preço do petróleo diariamente.
 
-    4 - Criar um plano para fazer o deploy em produção do modelo.
+    4 Criar um plano para fazer o deploy em produção do modelo.
 
-    5 - Faça um MVP do seu modelo em produção no Streamlit.
+    5 Faça um MVP do seu modelo em produção no Streamlit.
 
 </b>
 
@@ -27,7 +27,7 @@ Neste arquivo se encontram todas as extratações, tratamentos e carregamentos (
 
 Foi criado o dashboard com as informações extraídas acima na ferramenta Looker, do Google. Já possuo experiência com Tableau e Power BI, decidi utilizar esta para poder aprender uma ferramenta nova. Para acessar o Dash, acesse: 
 
-    - https://lookerstudio.google.com/reporting/dbba5911-b1ee-4287-aaa8-4dbb56949e9e
+    https://lookerstudio.google.com/reporting/dbba5911-b1ee-4287-aaa8-4dbb56949e9e
 
 O Dashboard, possui as visões comparativas no decorrer do tempo e de suas máximas de valores para cada um dos indicadores (Inclui dados apenas do primeiro dia de cada mês para podermos comparar todos os dados de igual para igual). Conforme o print abaixo:
 
