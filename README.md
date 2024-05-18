@@ -87,3 +87,4 @@ Sobre o treinamento dos modelos, não inclui as outras variaveis que usei para c
 ![alt text](image-2.png)
 
     Conclusão: Utilizarei o ARIMA, por ter sido melhor avaliado.
+
