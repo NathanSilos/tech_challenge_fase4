@@ -23,6 +23,20 @@ Dito isso, foi feito todo este processo utilizando o python no arquivo <b>"/extr
 
 Neste arquivo se encontram todas as extratações, tratamentos e carregamentos (ETL). Ao final, foi gerada a base <b>"base_final.csv" </b> onde contem todas as informacoes unificadas em um unico local.
 
+Abaixo segue os sites das fontes de dados que utilizei:
+
+IPEA
+
+    http://www.ipeadata.gov.br/ExibeSerie.aspx?module=m&serid=1650971490&oper=view
+
+BCB (BANCO CENTRAL BRASIL)
+
+    https://opendata.bcb.gov.br/dataset?res_format=API
+
+BLS
+
+    https://www.bls.gov/data/
+
 # Segunda etapa
 
 Foi criado o dashboard com as informações extraídas acima na ferramenta Looker, do Google. Já possuo experiência com Tableau e Power BI, decidi utilizar esta para poder aprender uma ferramenta nova. Para acessar o Dash, acesse: 
