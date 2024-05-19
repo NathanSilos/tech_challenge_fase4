@@ -16,7 +16,7 @@ O objetivo do trabalho é: <b>
 
 # Primeira etapa
 
-Para a criação do Dashboard, foi necessária a extratação dos dados de petróleo do site do ipea. Para agregar mais informações, realizei a consulta em outros dados também como:
+Para a criação do Dashboard, foi necessária a extratação dos dados de petróleo do site do IPEA. Para agregar mais informações, realizei a consulta em outros dados também como:
 IPCA, SELIC, cotação do dólar e Inflação Americana.
 
 Dito isso, foi feito todo este processo utilizando o python no arquivo <b>"/extratacao_dos_dados/extracao_dados.ipynb" </b>
@@ -87,4 +87,35 @@ Sobre o treinamento dos modelos, não inclui as outras variaveis que usei para c
 ![alt text](image-2.png)
 
     Conclusão: Utilizarei o ARIMA, por ter sido melhor avaliado.
+
+# Etapa 4
+
+Descrevendo as etapas para o deploy de um modelo qualquer:
+
+1. <b>Pré-processamento e Transformação de Dados</b>: Pré-processamento dos dados antes de alimentar o modelo, incluindo limpeza, normalização, tratamento de missing values, etc.
+<b>
+Exemplos de Ferramentas:</b> Pandas, NumPy, scikit-learn.
+
+2. <b>Treinamento e Avaliação do Modelo</b>: É feito o modelo com os dados históricos e avaliado em um conjunto de validação. Avaliando qual o melhor ou o pior tipo de modelo. <b>
+Exemplos de Ferramentas:</b> Statsmodels, scikit-learn, TensorFlow, PyTorch.
+
+3. <b>Exportação do Modelo Treinado</b>: Modelo treinado é exportado para ser usado em um ambiente de produção.
+<b>
+Exemplos de Ferramentas:</b> Pickle (para modelos scikit-learn), TensorFlow Serving (para modelos TensorFlow), TorchScript (para modelos PyTorch).
+
+4. <b>Desenvolvimento da Aplicação de Produção</b>: Desenvolvimento de uma aplicação ou serviço que utiliza o modelo para fazer previsões em tempo real.
+<b>
+Exemplos de Ferramentas:</b> Flask, FastAPI, Django (para backend), React, Vue.js (para frontend), Docker (para contêinerização), Kubernetes (para orquestração de contêineres).
+
+5. <b>Implantação do Modelo em Produção</b>: Implantação em um ambiente de produção para que possa ser acessado por usuários finais.
+<b>
+Exemplos de Ferramentas:</b> AWS Lambda, Google Cloud Functions, Microsoft Azure Functions (para implantação de funções serverless), AWS ECS, Google Kubernetes Engine, Microsoft Azure Kubernetes Service (para implantação de contêineres), AWS SageMaker, Google AI Platform, Microsoft Azure Machine Learning (para implantação de modelos gerenciados).
+
+5. <b>Monitoramento e Manutenção Contínua</b>: Monitoramento contínuo do desempenho do modelo em produção e manutenção regular para garantir que o modelo continue funcionando conforme o esperado.
+<b>
+Exemplos de Ferramentas:</b> Prometheus, Grafana (para monitoramento de métricas), AWS CloudWatch, Google Cloud Monitoring, Microsoft Azure Monitor (para monitoramento em nuvem), ELK Stack (Elasticsearch, Logstash, Kibana) (para monitoramento de logs), Sentry (para rastreamento de erros), Jenkins, GitLab CI/CD, CircleCI (para automação de implantação contínua e integração contínua).
+
+## Etapa 5
+
+Para a implantação do modelo no stremit seguirei o mesmo passo a passo da aula 5 - Criando a aplicação.
 
