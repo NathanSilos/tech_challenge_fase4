@@ -126,6 +126,19 @@ Logo após sua solicitação, aparece a seguinte página:
 
 Sobe balões na tela e printa o resultado com a data ja calculada e o valor previsto para aquela data.
 
-<i> Obs.: Há uma grande oportunidade de melhoria em relação a acertividade do modelo, entretando todo o fluxo do projeto esta montado com todos os códigos devidamente comentados para a hora da correção. Estou buscando formas de melhorar o modelo para que fique um projeto melhor. =D </i>
+Segue abaixo os links para acessar o repositório e a aplicação.
+
+Aplicação:
+
+    https://apptechchallenge-zegm2pd3umbjjrptw3j5dn.streamlit.app/
+
+Repositório utilizado para deploy do modelo (mesmo código que esta no caminho <b>modelo/modelo_arima</b>, apenas coloquei em outro para conseguir fazer o deploy):
+
+    https://github.com/NathanSilos/streamlit_tech_challenge
+
+
+
+<i> Obs.: 
+- Há uma grande oportunidade de melhoria em relação a acertividade do modelo, entretando todo o fluxo do projeto esta montado com todos os códigos devidamente comentados e documentados através deste README para a hora da correção. Estou buscando formas de melhorar o modelo para que fique um projeto melhor. Espero que tenham gostado. =D </i>
 
 Obrigado!!
