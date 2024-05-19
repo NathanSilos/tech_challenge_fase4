@@ -73,7 +73,11 @@ Gerei esta visão para avaliar o período:
 
 ![alt text](image.png)
 
-Sobre o treinamento dos modelos, não inclui as outras variaveis que usei para criar as visões por sentir que não há uma correlação forte o suficiente entre elas a ponto de usar no modelo. Sendo assim, treinei dois modelos. Abaixo coloquei as avaliações de cada um, com uma imagem com sua previsão:
+Sobre o treinamento dos modelos, não inclui as outras variaveis que usei para criar as visões por sentir que não há uma correlação forte o suficiente entre elas a ponto de usar no modelo. Conforme mostra a imagem abaixo:
+
+![alt text](image-3.png)
+
+ Sendo assim, treinei dois modelos. Abaixo coloquei as avaliações de cada um, com uma imagem com sua previsão:
     
     - ARIMA
         MSE: 18.91
@@ -104,11 +108,24 @@ Exemplos de Ferramentas:</b> Pickle (para modelos scikit-learn), TensorFlow Serv
 4. <b>Desenvolvimento da Aplicação de Produção</b>: Desenvolvimento de uma aplicação ou serviço que utiliza o modelo para fazer previsões em tempo real.<b>
 Exemplos de Ferramentas:</b> Flask, FastAPI, Django (para backend), React, Vue.js (para frontend), Docker (para contêinerização), Kubernetes (para orquestração de contêineres).
 
-5. <b>Implantação do Modelo em Produção</b>: Implantação em um ambiente de produção para que possa ser acessado por usuários finais.<b>Exemplos de Ferramentas:</b> AWS Lambda, Google Cloud Functions, Microsoft Azure Functions (para implantação de funções serverless), AWS ECS, Google Kubernetes Engine, Microsoft Azure Kubernetes Service (para implantação de contêineres), AWS SageMaker, Google AI Platform, Microsoft Azure Machine Learning (para implantação de modelos gerenciados).
+5. <b>Implantação do Modelo em Produção</b>: Implantação em um ambiente de produção para que possa ser acessado por usuários finais. <b>Exemplos de Ferramentas:</b> AWS Lambda, Google Cloud Functions, Microsoft Azure Functions (para implantação de funções serverless), AWS ECS, Google Kubernetes Engine, Microsoft Azure Kubernetes Service (para implantação de contêineres), AWS SageMaker, Google AI Platform, Microsoft Azure Machine Learning (para implantação de modelos gerenciados).
 
-5. <b>Monitoramento e Manutenção Contínua</b>: Monitoramento contínuo do desempenho do modelo em produção e manutenção regular para garantir que o modelo continue funcionando conforme o esperado.<b>Exemplos de Ferramentas:</b> Prometheus, Grafana (para monitoramento de métricas), AWS CloudWatch, Google Cloud Monitoring, Microsoft Azure Monitor (para monitoramento em nuvem), ELK Stack (Elasticsearch, Logstash, Kibana) (para monitoramento de logs), Sentry (para rastreamento de erros), Jenkins, GitLab CI/CD, CircleCI (para automação de implantação contínua e integração contínua).
+5. <b>Monitoramento e Manutenção Contínua</b>: Monitoramento contínuo do desempenho do modelo em produção e manutenção regular para garantir que o modelo continue funcionando conforme o esperado. <b>Exemplos de Ferramentas:</b> Prometheus, Grafana (para monitoramento de métricas), AWS CloudWatch, Google Cloud Monitoring, Microsoft Azure Monitor (para monitoramento em nuvem), ELK Stack (Elasticsearch, Logstash, Kibana) (para monitoramento de logs), Sentry (para rastreamento de erros), Jenkins, GitLab CI/CD, CircleCI (para automação de implantação contínua e integração contínua).
 
 ## Etapa 5
 
-Para a implantação do modelo no stremit seguirei o mesmo passo a passo da aula 5 - Criando a aplicação.
+Para a implantação do modelo no stremit seguirei o mesmo passo a passo da aula 5 - Criando a aplicação, utilizando o Streamlit.
 
+Foi criado uma pasta no caminho <b>"modelo/modelo_arima"</b> onde contem os códigos com a aplicação com o ambiente virtual devidamente criado e com o código do streamlit. Abaixo segue a imagem da primeira etapa, onde perguntamos em quanto tempo o usuário deseja saber a previsão do petróleo:
+
+![alt text](image-4.png)
+
+Logo após sua solicitação, aparece a seguinte página:
+
+![alt text](image-6.png)
+
+Sobe balões na tela e printa o resultado com a data ja calculada e o valor previsto para aquela data.
+
+<i> Obs.: Há uma grande oportunidade de melhoria em relação a acertividade do modelo, entretando todo o fluxo do projeto esta montado com todos os códigos devidamente comentados para a hora da correção. Estou buscando formas de melhorar o modelo para que fique um projeto melhor. =D </i>
+
+Obrigado!!
